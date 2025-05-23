@@ -1,0 +1,11 @@
+{
+  "progress": [
+    { "week": "월", "completed": 0 },
+    { "week": "화", "completed": 0 },
+    { "week": "수", "completed": 100 },
+    { "week": "목", "completed": 0 },
+    { "week": "금", "completed": 100 },
+    { "week": "토", "completed": 0 },
+    { "week": "일", "completed": 100 }
+  ]
+}

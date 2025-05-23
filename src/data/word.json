@@ -1,0 +1,88 @@
+{
+  "words": [
+    {
+      "word": "apple",
+      "meaning": "사과",
+      "partOfSpeech": "명사",
+      "example": "I ate an apple for breakfast.",
+      "exampleMeaning": "나는 아침으로 사과를 먹었다."
+    },
+    {
+      "word": "banana",
+      "meaning": "바나나",
+      "partOfSpeech": "명사",
+      "example": "She loves eating a banana every morning.",
+      "exampleMeaning": "그녀는 매일 아침 바나나를 먹는 것을 좋아한다."
+    },
+    {
+      "word": "orange",
+      "meaning": "오렌지",
+      "partOfSpeech": "명사",
+      "example": "This orange is really sweet.",
+      "exampleMeaning": "이 오렌지는 정말 달다."
+    },
+    {
+      "word": "grape",
+      "meaning": "포도",
+      "partOfSpeech": "명사",
+      "example": "Grapes are healthy and delicious.",
+      "exampleMeaning": "포도는 건강하고 맛있다."
+    },
+    {
+      "word": "watermelon",
+      "meaning": "수박",
+      "partOfSpeech": "명사",
+      "example": "Watermelon is perfect for hot summer days.",
+      "exampleMeaning": "수박은 더운 여름 날씨에 완벽하다."
+    },
+    {
+      "word": "korean",
+      "meaning": "국어",
+      "partOfSpeech": "명사",
+      "example": "I am learning Korean at school.",
+      "exampleMeaning": "나는 학교에서 국어를 배우고 있다."
+    },
+    {
+      "word": "english",
+      "meaning": "영어",
+      "partOfSpeech": "명사",
+      "example": "We study English every day.",
+      "exampleMeaning": "우리는 매일 영어를 공부한다."
+    },
+    {
+      "word": "japan",
+      "meaning": "일본",
+      "partOfSpeech": "명사",
+      "example": "I want to visit Japan someday.",
+      "exampleMeaning": "나는 언젠가 일본을 방문하고 싶다."
+    },
+    {
+      "word": "china",
+      "meaning": "중국",
+      "partOfSpeech": "명사",
+      "example": "China has a rich history and culture.",
+      "exampleMeaning": "중국은 풍부한 역사와 문화를 가지고 있다."
+    },
+    {
+      "word": "russia",
+      "meaning": "러시아",
+      "partOfSpeech": "명사",
+      "example": "Russia is the largest country in the world.",
+      "exampleMeaning": "러시아는 세계에서 가장 큰 나라이다."
+    },
+    {
+      "word": "test",
+      "meaning": "시험",
+      "partOfSpeech": "명사",
+      "example": "I have a math test tomorrow.",
+      "exampleMeaning": "나는 내일 수학 시험이 있다."
+    },
+    {
+      "word": "school",
+      "meaning": "학교",
+      "partOfSpeech": "명사",
+      "example": "My school is located near the park.",
+      "exampleMeaning": "내 학교는 공원 근처에 있다."
+    }
+  ]
+}
