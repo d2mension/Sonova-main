@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import progress from "../data/myInfo.json";
 import clsx from "clsx";
+import './style/myPageStyle.css'
 
 // 마이페이지
 export const MyPage = ({ data }) => {
@@ -32,24 +33,23 @@ export const MyPage = ({ data }) => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center gap-5">
-      <div className="text-3xl font-bold">안녕하세요, userId님</div>
-      <div className="flex flex-col items-center gap-5 p-5 bg-yellow-200 border-2 border-orange-500 rounded-xl">
-        <div className="text-3xl font-bold">학습 진행도</div>
-        <div className=" w-[300px] flex justify-center gap-5  flex-wrap">
+    <div className="info-background-screen">
+      <div className="user-greeting">안녕하세요, userId님</div>
+      <div className="progress-box">
+        <div className="progress-title">학습 진행도</div>
+        <div className="date-grid">
           {weekDates.map((date, index) => (
             <div
               key={index}
               className={clsx(
-                "flex justify-center items-center p-2 rounded-lg h-[50px]",
+                "date-cell",
                 progress.progress[index].completed === 100
-                  ? "bg-orange-300"
-                  : "bg-white"
+                  ? "date-completed"
+                  : "date-incomplete"
               )}
             >
-              <div className="font-semibold">
-                {date.getMonth() + 1}/{date.getDate()}
-              </div>
+              {date.getMonth() + 1}/{date.getDate()}
+            
             </div>
           ))}
         </div>

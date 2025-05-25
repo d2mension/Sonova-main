@@ -30,7 +30,7 @@ export function Card({ words, type }) {
 
   return (
     <main className="flex justify-center mt-4">
-      <div className="back-screen">
+      <div className="flashcard-back-screen">
         <Slider {...settings}>
           {word.map((data) => (
             <Flashcard words={data} />

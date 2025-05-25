@@ -1,0 +1,59 @@
+.background-screen {
+  background-color: #FFF1C2;
+  min-height: 100vh;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 50px 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #b45b00;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 300px;
+  background-color: white;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.word-list {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.word-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  height: 45px;
+  border: 1px solid #E6A200;
+  border-radius: 5px;
+}
+
+.word-left {
+  color: #000;
+  padding-top: 7px;
+  padding-left: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.word-right {
+  color: #000;
+  padding-top: 10px;
+  padding-right: 15px;
+}

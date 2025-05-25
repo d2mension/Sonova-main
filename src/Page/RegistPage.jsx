@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button, Input } from "../Component/common";
+import "./style/registStyle.css"
 
 export const RegistPage = () => {
   const [inputs, setInputs] = useState({
@@ -18,8 +19,8 @@ export const RegistPage = () => {
     console.log(inputs);
   };
   return (
-    <div>
-      <h1>회원가입</h1>
+    <div className="background-screen">
+      <h1 className="regist-logo">SONOVA</h1>
       <Input
         value={id}
         onChange={handleChange}
@@ -29,9 +30,10 @@ export const RegistPage = () => {
           maxLength: 15,
           placeholder: "아이디",
         }}
+        className="regist-input-id"
       />
       {id.length < 10 ? (
-        <div>아이디는 10 ~ 15자로 입력해주세요.</div>
+        <div className="error-message">아이디는 10 ~ 15자로 입력해주세요.</div>
       ) : (
         <div></div>
       )}
@@ -43,8 +45,9 @@ export const RegistPage = () => {
           type: "password",
           placeholder: "비밀번호",
         }}
+        className="regist-input-password"
       />
-      <Button onClick={handleClick} children={"회원가입"} />
+      <Button onClick={handleClick} children={"회원가입"} className="regist-button"/>
     </div>
   );
 };

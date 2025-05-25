@@ -2,7 +2,7 @@ import "../App.css";
 import { useNavigate } from "react-router-dom";
 import "../style/cardStyle.css";
 import { Button } from "../Component/common";
-import "./style/MainPage.css";
+import "./style/mainStyle.css";
 
 export function MainPage() {
 

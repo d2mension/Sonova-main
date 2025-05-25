@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Button } from "../Component/common";
 import data from "../data/word.json";
 import useDebounce from "../hook/useDebounce";
+import "./style/searchStyle.css";
 
 // 단어검색
 export const SearchList = () => {
@@ -25,23 +26,24 @@ export const SearchList = () => {
   };
 
   return (
-    <div className="flex flex-col gap-2 overflow-scroll h-[100vh]">
-      <h1>단어 검색</h1>
-      <input
-        className="w-[300px] p-3 border border-orange-500 rounded-2xl font-bold"
-        type="text"
-        value={search}
-        onChange={handleSearch}
-        placeholder="검색한 단어 입력"
-      />
-      {word.map((data) => (
-        <div className="flex flex-col justify-center border border-red-500 w-[300px] h-[50px] font-bold">
-          <div className="flex items-center justify-between p-2">
-            <div>{data.word}</div>
-            <div>{data.meaning}</div>
-          </div>
+    <div className="background-screen">
+      <div className="list-card">
+        <input
+          className="search-box"
+          type="text"
+          value={search}
+          onChange={handleSearch}
+          placeholder="검색할 단어 입력"
+        />
+        <div className="word-list">
+          {word.map((data) => (
+            <div className="word-row">
+                <div className="word-left">{data.word}</div>
+                <div className="word-right">{data.meaning}</div>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 };

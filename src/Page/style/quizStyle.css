@@ -1,0 +1,97 @@
+.quiz-back-screen {
+  background-color: #FFF1C2;
+  width: 450px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #E6A200;
+  transition: width 0.3s ease;
+}
+
+.flashcard {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flashcard-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.instruction {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.english-sentence {
+  font-size: 19px;
+  text-align: center;
+  margin: 0 10px;
+  line-height: 1.5;
+}
+
+.sentence-meaning {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.button-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.quiz-button {
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-text {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
